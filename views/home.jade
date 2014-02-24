@@ -1,0 +1,14 @@
+doctype html
+html(lang="en", data-ng-app="phoneSocketTest")
+    head
+        title Phone Socket Test
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width,initial-scale=1.0")
+        link(rel="stylesheet", href="styles/styles.css")
+    body(data-ng-controller="mainCtrl")
+        div(class="box" phone-control)
+        script(src='//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js')
+        script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+        script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js')
+        script(src="/socket.io/socket.io.js")
+        script(src="scripts/main.js")
